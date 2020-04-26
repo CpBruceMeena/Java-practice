@@ -1,0 +1,30 @@
+class Example{
+	int x = 3; // it is a instance variable 
+	static int y; // it is a static member variable
+	
+	public void fun1() {
+		int x = 3;
+	}		// Now the above function is an instance member based function
+	
+	public static void fun2() {
+		y = 4;
+	} // Here the function is an static member function, which means it can 
+	// only acccess the static member variables.
+	
+	static class test{
+		public static String name = "sandeep";
+				
+	}
+	// Here we have a static inner class
+}
+
+
+
+public class StaticClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
