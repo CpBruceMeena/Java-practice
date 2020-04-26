@@ -1,0 +1,11 @@
+
+public class WrapperClass {
+
+	public static void main(String[] args) {
+		Integer i1 = Integer.valueOf("125");
+		Float f1 = Float.valueOf("235.25");
+		int i = Integer.parseInt("235235");
+		int c = i1.intvalue();
+	}
+
+}
