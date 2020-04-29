@@ -1,0 +1,36 @@
+interface I1{
+	void fun1();
+}
+
+interface I2{
+	void fun2();
+}
+
+interface I3 extends I1, I2{
+	void fun3();
+}
+
+class interB implements I3{
+	public void fun1() {
+		
+	}
+	
+	public void fun2() {
+		
+	}
+	
+	public void fun3() {
+		
+	}
+}
+
+public class InterfaceExample {
+
+	public static void main(String[] args) {
+
+		interB obj = new interB();
+		I1 temp = new interB();
+		
+	}
+
+}

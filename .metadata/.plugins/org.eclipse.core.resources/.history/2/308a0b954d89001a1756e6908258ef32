@@ -1,0 +1,19 @@
+
+public class ArrayExample {
+
+	public static void main(String []args) {
+		int arr[];
+		arr = new int[3];
+		arr[0] = 32;
+		arr[1] = 23;
+		arr[2] = 1;
+		
+		// As the array is an instance based so it contains 0 value by default, its not blank variable.
+		
+		// int arr[5]; this statement is an error, because arr is a reference variable, 
+		// the array is created using the new int[3] method; (dynamically)
+		// int arr[] or int [] arr, are both correct to declare the reference variable
+		// int arr[] = new int[2]{2, 1} is an error, because we cannot mention size and values at the same time;
+		// int arr[] = new int[]{1, 2, 4} this is correct;
+	}
+}
