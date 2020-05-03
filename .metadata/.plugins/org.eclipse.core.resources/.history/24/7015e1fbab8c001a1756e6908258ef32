@@ -1,0 +1,14 @@
+import java.util.LinkedList;
+
+public class LInkedListExample {
+
+	public static void main(String[] args) {
+
+		LinkedList temp = new LinkedList();
+		temp.add(12);
+		temp.add(23);
+		temp.add(53);
+		for(int i = 0; i<LinkedList.size(); i++) System.out.println(add.get(i));
+	}
+
+}

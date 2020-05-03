@@ -1,0 +1,20 @@
+import java.util.Vector;
+import java.util.Enumeration;
+
+public class EnumerationExample {
+
+	public static void main(String[] args) {
+			Vector temp = new Vector();
+			temp.add("Till");
+			temp.add("JOhn");
+			
+			temp.add("Raj");
+			
+			Enumeration t = temp.elements();
+			while(t.hasMoreElements()) {
+				int s = (int)t.nextElement();
+				System.out.println(s + " " + s.length());
+			}
+	}
+
+}

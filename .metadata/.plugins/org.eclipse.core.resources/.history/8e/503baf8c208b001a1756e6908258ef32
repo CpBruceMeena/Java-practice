@@ -1,0 +1,31 @@
+/* Points regarding anonymous class
+ *  Anonymous classes are always inner class with no name, and they are always child class of a parent class.
+ *  
+ */
+
+
+class Greeting{
+	public void fun(){
+		System.out.println("Hello from Greeting class");
+	}
+}
+
+class India{
+	
+	Greeting g = new Greeting() {   // this is the syntax used to create the anonymous class, and we use a reference varaible of
+				// class to store it.
+		public void fun() {
+			System.out.println("Hello from Greeting anonymous class");
+		}
+	};
+}
+
+
+public class AnonymousClass {
+
+	public static void main(String[] args) {
+		India ob = new India();
+		ob.g.fun();
+	}
+
+}
