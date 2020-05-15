@@ -1,0 +1,14 @@
+package practice_Problems;
+
+import java.util.Scanner;
+import java.util.*;
+
+public class PracticeGFG {
+
+	public static void main(String[] args) {
+		int test; 
+		Scanner sc = new Scanner(System.in);
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package practice_Problems;
+
+import java.util.Scanner;
+import java.util.*;
+
+public class PracticeGFG {
+
+	public static void main(String[] args) {
+		int test; 
+		Scanner sc = new Scanner(System.in);
+		test = sc.nextInt();
+		Set<Integer> arr = new SortedSet<Integer>();
+		int a = 1;
+		int b = 1;
+		arr.add(a);
+		arr.add(a + b);
+		for(int i = 0; i<20; i++) {
+			int c = a + b;
+			arr.add(c);
+			a = b;
+			b = c;
+		}
+		System.out.println(arr);
+		while(test-->0) {
+			
+		}
+	}
+
+}
